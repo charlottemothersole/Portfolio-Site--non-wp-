@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Page</title>
+        <link rel='stylesheet' href='./styles.css'/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/8e30827f8d.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav id='navbar'>
+                <span style='color:white;' class='navbar-toggle' id='navbar-toggle'>
+                    <i class='fas fa-bars'></i>
+                </span>
+                <ul id='nav-list' class='nav-list inactive'>
+                    <li class='nav'><a class='nav-item' href='#welcome-section'>About</a></li>
+                    <li class='nav'><a class='nav-item' href='#projects'>Work</a></li>
+                    <li class='nav' ><a class='nav-item' href='#contact'>Contact</a></li>
+                    <li class='nav' ><a class='nav-item' href='#certifications'>Certifications</a></li>
+                    
+                </ul>
+                
+            </nav>
+        </header>
+        <main>
+            <section id='welcome-section'>
+                <div id='welcome-overlay'>
+                <h1>Nice to meet you.</h1>
+                <h2>I'm Charlotte. Welcome to my web developer portfolio.</h2>
+                </div>
+            </section>
+            <section id='projects'>
+                <div id='filler-top'>                    
+                </div>
+                    <h1 id='project-header'>My Projects</h1> 
+                <svg id='project-svg-top' xmlns="http://www.w3.org/2000/svg" viewbox='0 0 100 100' height='100px' width='100%' preserveAspectRatio='none'>
+                        <polygon id='polygon' points='0,100 100,0 100,100' fill='rgba(77,0,17,1)'>
+                        </polygon>                          
+                    </svg>                                    
+                <div id='projects-container'>
+                    <figure class='project-tile'>
+                        <a class='projects-link' target=_blank href=https://charlottemothersole.github.io/Rainbow-Piano/>
+                            <img class='project-img' src='./Rainbow-Piano1.jpg'>
+                            <figcaption class='figcaption'>Interactive Music App</figcaption>
+                        </a>
+                    </figure> 
+                    <figure class='project-tile'>
+                        <a class='projects-link' target=_blank href=https://charlottemothersole.github.io/PXLPro />
+                            <img class='project-img' src='./PXL.PNG'>
+                                <figcaption class='figcaption'>Landing Page for fictional brand</figcaption>
+                        </a>
+                    </figure>                    
+                    <figure class='project-tile'>
+                        <a class='projects-link' target=_blank href=https://charlottemothersole.github.io/Seasonal-Clock/>
+                            <img class='project-img' src='./Seasonal-Clock1.jpg'>
+                                <figcaption class='figcaption'>Seasonal themed clock</figcaption>
+                        </a>
+                    </figure>                    
+                    <figure class='project-tile'>
+                        <a class='projects-link' target=_blank href=https://charlottemothersole.github.io/Photo-Editor/>
+                            <img class='project-img' src='./Photo-Editor1.png'>
+                                <figcaption class='figcaption'>Photo Editor App</figcaption>
+                        </a>
+                    </figure>                   
+                    <svg id='project-svg-bottom' xmlns="http://www.w3.org/2000/svg" viewbox='0 0 100 100' height='100px' width='100%' preserveAspectRatio='none'>
+                        <polygon id='polygon' points='0,100 100,0 100,100' fill='#E4E5E8'>
+                        </polygon>
+                    </svg> 
+                </div>
+                <div id='filler-bottom'>                    
+                </div>
+            </section>
+            <section id='contact'>
+                <h1 id='contact-header'>Get in touch...</h1>
+                <div id='contact-container'>
+                    <a class='contact-link' target='_blank' href='mailto:charlottemothersole@gmail.com'>
+                        <figure class='contact-tile'>
+                            <img class='icon' src='./email.png'/>
+                            <figcaption class='caption'>Send me an email</figcaption>
+                        </figure>
+                    </a>
+                    <a class='contact-link' target='_blank' href='https://github.com/charlottemothersole?tab=repositories'>
+                        <figure class='contact-tile'>
+                            <img class='icon' src='./github.png'/>
+                            <figcaption>Connect on Github</figcaption>
+                        </figure>
+                    </a>
+                </div>
+        </main>
+        <footer id='certifications'>
+            <ul id='link-list'>
+                <li class='list-item'><a class='footer-item' id='profile-link' target='_blank' href='https://www.freecodecamp.org/cmothersole'>FreeCodeCamp Certifications</a></li>
+                <li class='list-item'><a class='footer-item' id='codecademy-link' target='_blank' href='https://www.codecademy.com/profiles/beta3118175267'>Codecademy Certifications</a></li>
+                <li class='list-item'><a class='footer-item' id='codewars-link' target='_blank' href='https://www.codewars.com/users/mcuriousity'>Codewars Certifications</a></li>
+            </ul>
+            <p id='footer-text'><img id='copyright' src='./copyright.png'/>Made by Charlotte</p>         
+        </footer>
+        <script src='./script.js'></script>
+    </body>
+</html>
